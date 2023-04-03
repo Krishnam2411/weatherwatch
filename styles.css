@@ -34,9 +34,9 @@ p,h2{
     color: black;
     font-weight: bold;
     text-align: center;
+}
+p{
     word-spacing: 2rem;
-    
-    
 }
 .section{height: 80vh;}
 
@@ -49,7 +49,7 @@ p,h2{
         width: 85vw;
         font-size: 1rem;
     }
-
-p,h2{font-size: 1.5rem; word-spacing: 0.5rem;}
+    p,h2{font-size: 1.5rem;}
+    p{ word-spacing: 0.5rem;}
 
 }
