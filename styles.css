@@ -28,6 +28,19 @@ h1{color: white; font-size: 4rem; font-family:  'Montserrat', sans-serif;}
     font-family: 'Montserrat',sans-serif;
     
 }
+#searchbutton{
+    font-size: 1.6rem;
+    padding: 1rem 1.5rem;
+    margin: 0 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    transform: border 0.5s;
+}
+#searchbutton:hover{
+    border: 1px solid white;
+}
 p,h2{
     font-size: 2.3rem;
     font-family: 'Montserrat', sans-serif;

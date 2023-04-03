@@ -2,6 +2,7 @@
 const API_KEY = `3265874a2c77ae4a04bb96236a642d2f`
 const form = document.querySelector("form")
 const inputbox = document.querySelector("#inputbox")
+const searchButton = document.querySelector("#searchbutton")
 const weather = document.querySelector(".weather-ui")
    
 const getWeather = async(city) => {
@@ -50,8 +51,8 @@ const showWeather = (data) => {
 }
 
 
-form.addEventListener(
-    "submit",
+searchButton.addEventListener(
+    "click",
     function(event) {
         getWeather(inputbox.value)
         event.preventDefault();
